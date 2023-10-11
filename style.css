@@ -1,9 +1,13 @@
 body {
-      background: #36005a
+     background: #7c1ba8
+}
+
+h1 {
+     style="texte-align: center">NOTICIAS DO MUNDO GEEK</h1>
 }
 
 p {
-    text-align: center;
+     text-align: center;
 }
 
 strong {
