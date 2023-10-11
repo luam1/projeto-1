@@ -3,11 +3,15 @@ body {
 }
 
 h1 {
-     texte-align:
+     texte-align: center
 }
 
 p {
      text-align: center;
+}
+
+#missão {
+     font-size: 20px"
 }
 
 strong {
