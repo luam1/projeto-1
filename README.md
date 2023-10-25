@@ -7,7 +7,7 @@
     </head>
 
     <body>
-        <img src="images (1).jpg">
+        <img src="images.jpg">
 
         <h1 style="text-align: center; backgran">Notícias do Mundo Geek</h1>
 
