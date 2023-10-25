@@ -7,6 +7,8 @@
     </head>
 
     <body>
+        <img src="banner.jpg">
+
         <h1 style="text-align: center; backgran">Notícias do Mundo Geek</h1>
 
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
