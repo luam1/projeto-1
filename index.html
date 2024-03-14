@@ -3,52 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fichas de Personagens</title>
+    <title>Fichas de RPG</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
         .character-card {
+            width: 300px;
+            background-color: white;
             border: 1px solid #ccc;
             border-radius: 5px;
+            margin: 20px;
             padding: 20px;
-            margin: 10px;
-            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: inline-block;
-            text-align: center;
         }
-
-        .character-image {
-            max-width: 100px;
-            max-height: 100px;
-            border-radius: 50%;
+        .character-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .character-card h2 {
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Fichas de Personagens</h1>
-    <div class="character-card">
-        <img src="imagem1.jpg" alt="Personagem 1" class="character-image">
-        <h2>Nome do Personagem 1</h2>
-        <p>Descrição do Personagem 1.</p>
-    </div>
-    <div class="character-card">
-        <img src="imagem2.jpg" alt="Personagem 2" class="character-image">
-        <h2>Nome do Personagem 2</h2>
-        <p>Descrição do Personagem 2.</p>
-    </div>
-    <div class="character-card">
-        <img src="imagem3.jpg" alt="Personagem 3" class="character-image">
-        <h2>Nome do Personagem 3</h2>
-        <p>Descrição do Personagem 3.</p>
-    </div>
-    <div class="character-card">
-        <img src="imagem4.jpg" alt="Personagem 4" class="character-image">
-        <h2>Nome do Personagem 4</h2>
-        <p>Descrição do Personagem 4.</p>
-    </div>
-    <div class="character-card">
-        <img src="imagem5.jpg" alt="Personagem 5" class="character-image">
-        <h2>Nome do Personagem 5</h2>
-        <p>Descrição do Personagem 5.</p>
-    </div>
+
+<div class="character-card">
+    <img src="imagem1.jpg" alt="Personagem 1">
+    <h2>Nome do Personagem 1</h2>
+    <p>Raça: Humano</p>
+    <p>Classe: Guerreiro</p>
+    <p>Nível: 5</p>
+</div>
+
+<div class="character-card">
+    <img src="imagem2.jpg" alt="Personagem 2">
+    <h2>Nome do Personagem 2</h2>
+    <p>Raça: Elfo</p>
+    <p>Classe: Mago</p>
+    <p>Nível: 3</p>
+</div>
+
+<div class="character-card">
+    <img src="imagem3.jpg" alt="Personagem 3">
+    <h2>Nome do Personagem 3</h2>
+    <p>Raça: Anão</p>
+    <p>Classe: Ladino</p>
+    <p>Nível: 2</p>
+</div>
+
 </body>
 </html>
 
