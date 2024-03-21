@@ -7,40 +7,70 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        section {
             padding: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .button:hover {
+            background-color: #45a049;
         }
         img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 0 10px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .btn:hover {
-            background-color: #0056b3;
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo ao Meu Site!</h1>
+    <header>
+        <h1>Meu Site</h1>
+    </header>
+    <nav>
+        <a href="#">Página Inicial</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <section>
+        <h2>Bem-vindo ao meu site!</h2>
         <img src="https://via.placeholder.com/400" alt="Imagem de exemplo">
-        <p>Este é um exemplo simples de um site HTML com uma imagem e alguns botões.</p>
-        <a href="#" class="btn">Botão 1</a>
-        <a href="#" class="btn">Botão 2</a>
-        <a href="#" class="btn">Botão 3</a>
-    </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo et nisi congue malesuada ut nec nisi. Nullam id risus vitae tellus lacinia tincidunt. Donec lacinia justo quis ex luctus, eu efficitur erat tempor.</p>
+        <button class="button">Clique aqui</button>
+    </section>
 </body>
 </html>
